@@ -79,7 +79,7 @@ prompt = ChatPromptTemplate.from_messages([
 # ---- Model ----
 model = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",
-    google_api_key=os.getenv("AIzaSyDGGF9cfSxmTRm3hmNdsi6xIf6m7uBzbsY"),
+    google_api_key="AIzaSyDGGF9cfSxmTRm3hmNdsi6xIf6m7uBzbsY",
     temperature=0.2,
     max_output_tokens=150
 )
