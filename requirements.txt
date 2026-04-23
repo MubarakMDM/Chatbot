@@ -1,0 +1,22 @@
+# Core LLM + LangChain
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+
+# UI
+streamlit
+
+# Data handling (useful for movie datasets)
+pandas
+numpy
+
+# Optional: embeddings / similarity (if you expand recommender logic)
+scikit-learn
+
+# Environment variables
+python-dotenv
+
+# Notebook support
+notebook
+ipykernel
