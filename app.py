@@ -78,7 +78,7 @@ prompt = ChatPromptTemplate.from_messages([
 
 # ---- Model ----
 model = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
+    model="gemini-1.5-flash",
     temperature=0.2,
     max_output_tokens=150
 )
